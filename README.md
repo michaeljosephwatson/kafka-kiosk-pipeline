@@ -52,3 +52,9 @@ Some of the properties will only be known for you after some set up:
 
 3. For kafka_pipeline run: ./initialise_db_and_pipeline.sh and then after deploy_pipeline.sh for further deployment
 
+**This project resulted in a live Tableau dashboard which looked like this but any dashboard software could be used:**
+
+![Dashboard](tableau_dashboard.png)
+
+
+
