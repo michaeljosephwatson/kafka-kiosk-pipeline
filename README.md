@@ -2,6 +2,9 @@
 
 The project was about streaming live feedback data from museum exhibitions. The idea is that customers would go see an exhibition and then as they leave visit the kiosk where they press their rating of the exhibition. Additionally, there would be options for calling for staff assistance and emergencies. This is then pushed to Kafka which is then consumed and placed into an AWS RDS, which is then streamed to a tableau dashboard. 
 
+![Kiosk Experience UI](kiosk.png)
+
+
 This repository can be cloned and adjusted to set up a similar system for getting data from a Kafka cluster and doing analysis on it. What would have to be changed is the sensitive resources inside of a .env, the schema for the database so it matches the data that you are using, and the data processing and uploading to the correct format. However, the steps taken broadly can be followed in your own project to achieve a similar pipeline. 
 
 **How to install any necessary dependencies:**
@@ -12,7 +15,7 @@ Create a python a venv and install requirements.txt file
 * source .venv/bin/activate
 * pip3 install -r requirements.txt
 
-Will need to set your .env to have the following properties to run every file:ß
+Will need to set your .env to have the following properties to run every file:
 
 * ACCESS_KEY_ID
 * SECRET_ACCESS_KEY
