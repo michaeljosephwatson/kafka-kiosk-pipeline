@@ -48,7 +48,7 @@ Some of the properties will only be known for you after some set up:
 
 1. Go into the pipeline folder and then go into either original_pipeline or kafka_pipeline
 
-2. For original_pipeline run: ./create_pipeline_local.sh
+2. For original_pipeline run: ./create_pipeline_local.sh for local or ./create_pipeline for AWS pipeline. The original pipeline uses the static data in the data folder.
 
 3. For kafka_pipeline run: ./initialise_db_and_pipeline.sh and then after deploy_pipeline.sh for further deployment
 
