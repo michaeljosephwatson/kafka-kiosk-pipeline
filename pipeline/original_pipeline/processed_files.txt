@@ -1,0 +1,10 @@
+../data/lmnh_hist_data_0.csv
+../data/lmnh_hist_data_1.csv
+../data/lmnh_hist_data_2.csv
+../data/lmnh_hist_data_3.csv
+lmnh_exhibition_whales.json
+lmnh_exhibition_explorer.json
+lmnh_exhibition_dino.json
+lmnh_exhibition_bugs.json
+lmnh_exhibition_cave.json
+lmnh_exhibition_pollution.json

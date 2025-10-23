@@ -1,0 +1,8 @@
+boto3
+python-dotenv
+pandas
+ipykernel
+psycopg2-binary
+pytest
+altair[all]
+confluent_kafka
